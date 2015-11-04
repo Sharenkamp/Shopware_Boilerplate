@@ -2,9 +2,6 @@
 
 /**
  * Bootstrap.php
- *
- * @category   PayIntelligent
- * @copyright  Copyright (c) 2013 PayIntelligent GmbH (http://payintelligent.de)
  */
 class Shopware_Plugins_Backend_ExampleModel_Bootstrap extends Shopware_Components_Plugin_Bootstrap
 {
@@ -57,7 +54,7 @@ class Shopware_Plugins_Backend_ExampleModel_Bootstrap extends Shopware_Component
         return true;
     }
 
-	/**
+    /**
      * Wenn das Plugin eigene Models bereit stellt und verwendet,
      * muss das Model-Verzeichnis in der afterInit-Methode der
      * Bootstrap registriert werden. Dafür gibt es die Helfer-Methode
@@ -65,7 +62,7 @@ class Shopware_Plugins_Backend_ExampleModel_Bootstrap extends Shopware_Component
      * im Plugin-Verzeichnis existieren
      *
      */
-	public function afterInit()
+    public function afterInit()
     {
         $this->registerCustomModels();
     }

@@ -2,9 +2,6 @@
 
 /**
  * Bootstrap.php
- *
- * @category   PayIntelligent
- * @copyright  Copyright (c) 2013 PayIntelligent GmbH (http://payintelligent.de)
  */
 class Shopware_Plugins_Backend_ExampleBackend_Bootstrap extends Shopware_Components_Plugin_Bootstrap
 {
@@ -60,7 +57,7 @@ class Shopware_Plugins_Backend_ExampleBackend_Bootstrap extends Shopware_Compone
                 'parent' => null));
     }
 
-        /**
+    /**
      * Create events for the plugin
      *
      * @throws Exception Error: Cant create events(_subscribeEvents)

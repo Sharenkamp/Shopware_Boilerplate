@@ -1,12 +1,8 @@
 /**
  * window
- *
- * @category   Shopware
- * @package    Shopware_Plugins
- * @copyright  Copyright (c) 2013 PayIntelligent GmbH (http://payintelligent.de)
  */
 
-    //{namespace name=backend/order/main}
+//{namespace name=backend/order/main}
 Ext.require([
     'Ext.grid.*', 'Ext.data.*', 'Ext.panel.*'
 ]);
